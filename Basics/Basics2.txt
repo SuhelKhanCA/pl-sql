@@ -1,0 +1,5 @@
+The syntax for declaring a variable with %TYPE is:
+
+    <var_name> <tab_name>.<column_name>%TYPE;
+    Example: 
+        salary EMP.SAL % TYPE;
