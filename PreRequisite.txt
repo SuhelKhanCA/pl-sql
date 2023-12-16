@@ -1,0 +1,2 @@
+Prerequisite:
+Before learning PL/SQL, you must have the basic knowledge of SQL and programming language like C, Java or any.
