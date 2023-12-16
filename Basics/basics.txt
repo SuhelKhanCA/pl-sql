@@ -1,3 +1,20 @@
 #Basics of PL/SQL
 1. --Defining/declaring variable in PL/SQL
-variable_name datatype [NOT NULL(Optional)] := [DEFAULT initial_value]; 
+    Syntax:
+    variable_name datatype [NOT NULL(Optional)] := [DEFAULT initial_value]; 
+        Example:
+        v_radius NUMBER := 5;
+
+        v_Date_of_birth DATE;
+
+    Note: Variables belonging to the same datatype cannot be declared in the same statement.
+            N1, N2, N3 Number;
+            It is an illegal declaration.
+
+
+2. -- Initializing Variables in PL/SQL
+
+    i. The DEFAULT keyword
+    ii. The assignment operator
+        counter BINARY_INTEGER := 0;  
+        greetings VARCHAR2(20) DEFAULT 'Hello JavaTpoint';    
