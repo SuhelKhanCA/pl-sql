@@ -3,3 +3,9 @@ The syntax for declaring a variable with %TYPE is:
     <var_name> <tab_name>.<column_name>%TYPE;
     Example: 
         salary EMP.SAL % TYPE;
+
+The syntax for declaring a variable with %ROWTYPE is:
+
+    <var_name> <tab_name>.ROW%TYPE;  
+    Example:
+        employ EMP. % ROW TYPE;
