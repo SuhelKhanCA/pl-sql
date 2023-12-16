@@ -1,0 +1,3 @@
+#Basics of PL/SQL
+1. --Defining/declaring variable in PL/SQL
+variable_name datatype [NOT NULL(Optional)] := [DEFAULT initial_value]; 
